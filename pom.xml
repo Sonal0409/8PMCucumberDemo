@@ -3,4 +3,67 @@
   <groupId>8PMSeptCucumberDemo</groupId>
   <artifactId>8PMSeptCucumberDemo</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  
+   <dependencies>
+   <dependency>
+      			<groupId>junit</groupId>
+      			<artifactId>junit</artifactId>
+      			<version>4.11</version>
+      			<scope>test</scope>
+    		</dependency>
+    		<dependency>
+			<groupId>info.cukes</groupId>
+			<artifactId>cucumber-java</artifactId>
+			<version>1.2.2</version>
+			<scope>test</scope>
+		</dependency>
+ 		<dependency>
+			<groupId>info.cukes</groupId>
+			<artifactId>cucumber-jvm</artifactId>
+			<version>1.0.3</version>
+			<type>pom</type>
+		</dependency>
+ <dependency>
+			<groupId>info.cukes</groupId>
+			<artifactId>cucumber-junit</artifactId>
+			<version>1.2.2</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>info.cukes</groupId>
+			<artifactId>cucumber-jvm-deps</artifactId>
+			<version>1.0.3</version>
+		</dependency>
+		<dependency>
+			<groupId>net.masterthought</groupId>
+			<artifactId>cucumber-reporting</artifactId>
+			<version>1.0.0</version>
+		</dependency>
+		<dependency>
+			<groupId>info.cukes</groupId>
+			<artifactId>gherkin</artifactId>
+			<version>2.12.2</version>
+		</dependency>
+		<dependency>
+        		<groupId>org.seleniumhq.selenium</groupId>
+        		<artifactId>selenium-java</artifactId>
+        		<version>3.141.59</version>
+    		</dependency> 
+    		<dependency>
+			<groupId>info.cukes</groupId>
+			<artifactId>cucumber-testng</artifactId>
+			<version>1.2.4</version>
+		</dependency>
+		<dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>6.14.3</version>
+		</dependency>
+		<dependency>
+    			<groupId>info.cukes</groupId>
+    			<artifactId>cucumber-core</artifactId>
+    			<version>1.2.2</version>
+		</dependency>
+  </dependencies>
+  
 </project>
